@@ -27,7 +27,7 @@ include ../Targets.mk
 
 TOOL    := demo
 PROMPT  := MAKE DEMO
-LIBS    := pthread c++
+LIBS    := pthread stdc++
 FILES   := $(call MAKE_FUNC_C_FILES,$(DIR_SRC)) $(call MAKE_FUNC_CPP_FILES,$(DIR_SRC))
 
 all: build
